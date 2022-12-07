@@ -1,315 +1,353 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+<head>
+    <meta describtion="all about Abdulkareem">
+    <meta author="Abdulkareem">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdulkareem portfolio</title>
+    <link rel="icon" href="pix/LOGO.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/unicons.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <script src="https://kit.fontawesome.com/438a1f96ca.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="css/tooplate-style.css">
+<body>
+    <!-- header -->
+    <header>
+        <a href="#" class="logo">
+            <img src="pix/LOGO.png" alt="">
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navlist">
+            <li><a href="#home" onclick="nav()">home</a></li>
+            <li><a href="#about" onclick="nav()">about</a></li>
+            <li><a href="#portfolio" onclick="nav()">portfolio</a></li>
+            <li><a href="#services" onclick="nav()">services</a></li>
+            <li><a href="#contact" onclick="nav()">contact</a></li>
+        </ul>
+        <a href="Resume-Abdulkareem--Abdulkareem-.pdf" class="top-btn" download>download cv</a>
+        <div>
+            <input type="checkbox" id="checkbox" class="checkbox">
+            <label for="checkbox">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </header>
+    <script src="script.js"></script>
+    <div class="loadwrap" id="load">
+    <div class="loader">
+        <div class="waves"></div>
+    </div>
+</div>
+    <!-- home -->
+    <div class="circle">
+        <div class="social" data-aos="fade-up" data-aos-delay="900">
+            <a href="mailto:damilareabdul485@gmail.com" title="email" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://wa.me/message/N2TLJBHB7MGME1" title="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://twitter.com/DamilareAbdul3" title="twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div> 
+    <section class="home" id="home"  data-aos="fade-right" data-aos-delay="200">
+        <div class="home-text"  data-aos="fade-up">
+            <h3>hello, i'm</h3>
+            <h1>abdulkareem</h1>
+            <h5>A web developer, a freelancer, an affiliate marketer and a graphics designer <span>from nigeria</span></h5>
+            <p>i am a very persistent, dedicated and focused web designer, website programmer, freelancer, graphics designer, and an affiliate marketer with almost 5 years experience. ready to work and satisfy my clients to their maximum satisfaction.
+                "CREATING DESIGNS IS MY FIRST PRIORITY"
+            </p>
+            <a href="#about" class="btn"  data-aos="fade-up">about me</a>
+        
+    </div>
+    <div class="home-img"  data-aos="fade-left">
+        <img src="pix/me-removebg-preview.png" alt="">
+    </div>
+    </section>
+    <!-- about -->
+    <div class="heading h1">
+        <h3>about me</h3>
+    </div>
+    <section class="about" id="about"  data-aos="fade-up" data-aos-delay="900">
+        
+        <div class="about-img">
+            <img src="pix/me-removebg-preview.png" alt="">
+        </div>
+        <div class="about-text">
+        
+<div class="content">
+    <h3>i'm Abdulkareem olorundamilare Abdulkareem</h3>
+    <p>i am a very persistent, dedicated and focused web designer, website programmer, freelancer, graphics designer, and an affiliate marketer with almost 5 years experience. ready to work and satisfy my clients to their maximum satisfaction.
+        "CREATING DESIGNS IS MY FIRST PRIORITY"</p>
+        <div class="inner">
+            <div class="me">
+                <p><span>age:</span> 44</p>
+                <p><span>gender:</span> male</p>
+                <p><span>language:</span> english</p>
+                <p><span>work:</span> web developer,<br> graphics designer and<br> an affiliate marketer </p>
+            </div>
+            <div class="me">
+                <p><span>freelancee:</span> available</p>
+                <p><span>phone:</span> 09134259111</p>
+                <p><span>email:</span>damilareabdul485@gmail.com</p>
+                <p><span>country:</span>nigeria</p>
+            </div>
+        </div>
+</div>
+              <a href="mailto:damilareabdul485@gmail.com" class="btn" onmouseout="alert('Are you sure you wanna leave without clicking')">hire me</a> 
+        </div>
+    </section>
+    <!-- skills -->
+    <section id="skills" data-aos="fade-up" data-aos-delay="900">
+<div class="heading">
+    <h3>my skills</h3>
+</div>
+<div class="row-2">
+    <div class="skills">
+        <div class="progress">
+            <h3>web design <span>95%</span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress">
+            <h3>web programming <span>90%</span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress">
+            <h3>graphics design <span>95%</span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress">
+            <h3>affiliate marketer<span>85%</span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress">
+            <h3>freelancing <span>95%</span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+    </div>
+    <div class="box-container">
+        <div class="box">
+            <span>website designing</span>
+            <h3> >> +5</h3>
+            <p>years of experience</p>
+        </div>
+        <div class="box">
+            <span>website programming</span>
+            <h3> >> +4</h3>
+            <p>years of experience</p>
+        </div>
+        <div class="box">
+            <span>graphics design</span>
+            <h3> >> +4</h3>
+            <p>years of experience</p>
+        </div>
+        <div class="box">
+            <span>freelancing and affiliate marketing</span>
+            <h3> >> +3</h3>
+            <p>years of experience</p>
+        </div>
+    </div>
+</div>
+    </section>
     
-<!--
-
-Tooplate 2115 Marvel
-
-https://www.tooplate.com/view/2115-marvel
-
--->
-  </head>
-  <body>
-
-    <!-- MENU -->
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> ABDULKAREEM</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav ml-lg-auto">
-                    <div class="ml-lg-4">
-                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                        <i class="color-mode-icon"></i>
-                        Color mode
-                      </div>
-                    </div>
-                </ul>
-            </div>
+    <!-- service -->
+    <section class="services" id="services" data-aos="fade-up" data-aos-delay="900">
+        <div class="heading">
+            <h3>sevices</h3>
+            <h2>what i do for clients</h2>
         </div>
-    </nav>
-
-    <!-- ABOUT -->
-    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
-        <div class="container">
+        <div class="services-content">
             <div class="row">
-                
-                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-                    <div class="about-text">
-                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
-                        <h1 class="animated animated-text">
-                            <span class="mr-2">Hey, I'm</span>
-                                <div class="animated-info">
-                                    <span class="animated-item" style="font-size:30px ; padding-top:10px;">ABDULKAREEM</span>
-                                    <span class="animated-item">Web Designer</span>
-                                    <span class="animated-item" style="font-size:30px ; padding-top:10px;">An Affiliate Marketer</span>
-                                </div>
-                        </h1>
-
-                        <p>Building a successful website is the prirority and getting you the best quality</p>
-                        
-                        <div class="custom-btn-group mt-4">
-                          <a href="https://eu.docworkspace.com/d/sIAzlk5amAbPX6ZcG" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download cv</a>
-                         
-                        </div>
-                    </div>
+                <div class="s s-one">
+                    <img src="pix/desktop-smartphone-app-development_23-2148683810.jpg" alt="">
                 </div>
-
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg">
-                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
-                    </div>
-                </div>
-
+                <h3>web programming</h3>
+                <h5>starts from <span>$90</span></h5>
+                <p>make your website dynamic and active with PHP.a computer language that makes your website stands out with the best</p>
             </div>
-        </div>
-    </section>
 
-    <!-- PROJECTS -->
-    <section class="project py-5" id="project">
-        <div class="container">
-                
-                <div class="row">
-                  <div class="col-lg-11 text-center mx-auto col-12">
-
-                      <div class="col-lg-8 mx-auto">
-                        <h2>Things I have designed so far</h2>
-                      </div>
-
-                      <div class="owl-carousel owl-theme">
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image03.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-                      </div>
-
-                  </div>
-                </div>
-        </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
-        <div class="container">
             <div class="row">
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">Experiences</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2022</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>web designer</span><small>omega computers</small></h3>
-                                  <p>Working as a web designer at OMEGA COMPUTER</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2018</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>web developer</span><small>omega sysyem</small></h3>
-                                <p>Developing website and tutoring at OMEGA SYSTEM</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2016</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span> Freelancer</h3>
-                                <p>a freelancer under UPWORK and FIVERR</p>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2014</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Affiliate Marketer<small>sellar</small></h3>
-                                <p>Registered as an Affiliate by an Affiliate platform known as SELLAR </p>
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="s s-one">
+                    <img src="pix/text-editor-programming-3d-illustration_447291-18.jpg" alt="">
                 </div>
+                <h3>web design</h3>
+                <h5>starts from <span>$80</span></h5>
+                <p>get any type of website built with HTML,CSS,JS or even boostrap that suits your needs </p>
+            </div>
 
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
-
-                    <div class="timeline">
-                        
-
-                       
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2016</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>web development</span><small>omega computer</small></h3>
-                                <p>Studied web development at federal ministry of infomation in conjunction with omega computers</p>
-                            </div>
-                        </div>
-
-                    </div>
+            <div class="row">
+                <div class="s s-one">
+                    <img src="pix/logo-mockup-grey-wall_35913-2122.jpg" alt="">
                 </div>
-                
+                <h3>graphics design</h3>
+                <h5>starts from <span>$70</span></h5>
+                <p>get your extremely beautiful😎😎 and creative design and logo creation
+                    with no stress!!.
+                </p>
             </div>
         </div>
     </section>
-
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-lg-5 mr-lg-5 col-12">
-            <div class="google-map w-100">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.0327120600095!2d4.588621164610106!3d8.496200249445547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10364d0929d82d63%3A0x552fbdc0e0acda3b!2sFederal%20Secretariat%2C%20240102%2C%20Ilorin!5e0!3m2!1sen!2sng!4v1660835044289!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Say hello</h3>
-                  <p class="footer-text mb-0">09134259111</p>
-                  <p>damilareabdul485@gmail.com</p>
-                </div>
-
-                <ul class="social-links">
-                     <!-- <li><a href="#" class="uil uil-telegram" data-toggle="tooltip" data-placement="left" title="telegram"></a></li>
-                     <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
-                     <li><a href="#" class="uil uil-facebook" data-toggle="tooltip" data-placement="left" title="facebook"></a></li> -->
-                     <li><a href="mailto:damilareabdul485@gmail.com"><img src="email-svgrepo-com.svg" alt="" height="30px" width="30px" title="email"></a></li><br> 
-                     <li><a href="https://wa.me/message/IQ2FFSH2Z4IEE1"><img src="whatsapp-svgrepo-com.svg" alt="" height="30px" width="30px" title="whatsapp"></a></li><br>
-                     <li><a href="https://www.facebook.com/profile.php?id=100075753709974"><img src="facebook-svgrepo-com.svg" alt="" height="30px" width="30px" title="facebook"></a></li><br>
-                </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-12">
-            <div class="contact-form">
-              <h2 class="mb-4">Interested to work together? Let's talk</h2>
-
-              <form action="https://formspree.io/f/xgeqvzae" method="POST">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                  </div>
-
-                  <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" style="resize: none;"></textarea>
-                  </div>
-
-                  <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio" data-aos="fade-up" data-aos-delay="900">
+        <div class="heading">
+            <h3>portfolio</h3>
+            <h2>my amazing work</h2>
         </div>
-      </div>
-    </section>
+        <div class="portfolio-content">
+            <div class="col">
+                <img src="pix/3.jpg" alt="">
+                <div class="layer">
+                    <h3>web design</h3>
+                    <h5>popup</h5>
+                </div>
+            </div>
+            <div class="col">
+                <img src="pix/7.jpg" alt="">
+                <div class="layer">
+                    <h3>web design</h3>
+                    <h5>popup</h5>
+                </div>
+            </div>
 
-    <!-- FOOTER -->
-     <footer class="footer py-5">
-          <div class="container">
-               <div class="row">
+            <div class="col">
+                <img src="pix/4.jpg" alt="">
+                <div class="layer">
+                    <h3>web design</h3>
+                    <h5>popup</h5>
+                </div>
+            </div>
 
-                    <div class="col-lg-12 col-12">                                
-                        <p class="copyright-text text-center">Copyright &copy; 2019 Extreme web world . All rights reserved</p>
-                        <p class="copyright-text text-center">Designed by Extreme code tech</p>
-                    </div>
-                    
-               </div>
-          </div>
-     </footer>
+            <div class="col">
+                <img src="pix/8.jpg" alt="">
+                <div class="layer">
+                    <h3>web design</h3>
+                    <h5>popup</h5>
+                </div>
+            </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/Headroom.js"></script>
-    <script src="js/jQuery.headroom.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
-<!-- <script>
-  alert('Kindly get back to Abdulkareem either by FACEBOOK,WHATSAPP OR GMAIL')
-</script> -->
-  </body>
+            <div class="col">
+                <img src="pix/9.jpg" alt="">
+                <div class="layer">
+                    <h3>web design</h3>
+                    <h5>popup</h5>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="pix/pexels-eberhard-grossgasteiger-2088170.jpg" alt="">
+                <div class="layer">
+                    <h3>web design</h3>
+                    <h5>popup</h5>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="pix/31st.png" alt="">
+                <div class="layer">
+                    <h3>graphics design</h3>
+                    <h5>corel draw</h5>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="pix/1.jpg" alt="">
+                <div class="layer">
+                    <h3>graphics design</h3>
+                    <h5>corel draw</h5>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="pix/2.jpg" alt="">
+                <div class="layer">
+                    <h3>graphics design</h3>
+                    <h5>canva</h5>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- work -->
+    <section class="cta" data-aos="fade-up" data-aos-delay="900">
+    <div class="heading">
+       
+        <h2>completed 50 sucessfully</h2>
+        
+    </div>
+    <div class="cta-box">
+        <div class="wrap one">
+            <h3>50</h3>
+            <p>finished project</p>
+        </div>
+        <div class="wrap tow">
+            <h3>50</h3>
+            <p>happy customers</p>
+        </div>
+        <div class="wrap three">
+            <h3>50+</h3>
+            <p>global customers</p>
+        </div>
+    </div>
+</section>
+<!-- contact -->
+<section class="contact" id="contact" data-aos="fade-up" data-aos-delay="900">
+    <div class="contaiiner">
+        <div class="center">
+            <h3>lets talk about everything</h3>
+            <p>dont like form? send me an email.</p>
+        </div>
+        <div class="action">
+            <form action="https://formspree.io/f/mrgdlbze" method="POST">
+                <input type="email" placeholder="enter your email" required name="email">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</section>
+<!-- ends -->
+<div class="ends">
+    <p>made with love with extreme code tech &copy 2022</p>
+</div>
+<!-- top -->
+<script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration:800
+  });
+</script>
+<script>
+  const checkbox = document.getElementById('checkbox');
+checkbox.addEventListener('change', () => {
+ document.body.classList.toggle('dark');
+});
+const sr = scrollReveal ({
+    distance: '45px',
+    duration:2700,
+    reset:true
+})
+
+sr.reveal('.home-text',{delay:350, origin:'left'})
+sr.reveal('.home-img',{delay:350, origin:'right'})
+
+sr.reveal('.home-img,.about,.portfolio,.services,.cta,.contact',{delay:350, origin:'bottom'});
+
+
+</script>
+<script>
+
+
+
+</script>
+</body>
 </html>
